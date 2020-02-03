@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -57,7 +56,7 @@ def plot_line_points(x, y, figsize=6, xlabel=' ', ylabel=' ', col= 'darkslateblu
         plt.savefig(figsave, bbox_inches='tight')
 
     plt.show()
-=======
+
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -135,5 +134,3 @@ def plot_color_map(x, y, data, xlim=[0.,1], ylim=[0.,1.],
     if figsave:
         plt.savefig(figsave, bbox_inches='tight')
     plt.show()
-
->>>>>>> upstream/master
