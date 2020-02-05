@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -135,7 +134,7 @@ def plot_color_map(x, y, data, xlim=[0.,1], ylim=[0.,1.],
     if figsave:
         plt.savefig(figsave, bbox_inches='tight')
     plt.show()
-=======
+
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -153,7 +152,7 @@ def plot_pretty(dpi=175,fontsize=9):
     plt.rc('lines', dotted_pattern = [2., 2.])
     #if you don't have LaTeX installed on your laptop and this statement 
     # generates error, comment it out
-    plt.rc('text', usetex=True)
+    #plt.rc('text', usetex=True)
 
     return
 
@@ -234,4 +233,3 @@ def plot_histogram(data, bins=None, xlabel=' ', ylabel=' ', tickmarks = False,
         plt.title(plot_title, fontsize=3.*figsize)
 
     plt.show()
->>>>>>> upstream/master
