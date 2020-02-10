@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -337,7 +336,7 @@ def plot_histogram(data, bins=None, xlabel=' ', ylabel=' ', tickmarks = False,
         plt.title(plot_title, fontsize=3.*figsize)
 
     plt.show()
-=======
+
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -355,7 +354,7 @@ def plot_pretty(dpi=175,fontsize=9):
     plt.rc('lines', dotted_pattern = [2., 2.])
     #if you don't have LaTeX installed on your laptop and this statement 
     # generates error, comment it out
-    plt.rc('text', usetex=True)
+    #plt.rc('text', usetex=True)
 
     return
 
@@ -501,4 +500,4 @@ def plot_2d_dist(x,y, xlim, ylim, nxbins, nybins, figsize=(5,5),
     if fig_setup is None:
         plt.show()
     return
->>>>>>> upstream/master
+
