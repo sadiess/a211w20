@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -502,7 +501,6 @@ def plot_2d_dist(x,y, xlim, ylim, nxbins, nybins, figsize=(5,5),
         plt.show()
     return
 
-=======
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -666,4 +664,3 @@ def plot_2d_dist(x,y, xlim, ylim, nxbins, nybins, figsize=(5,5),
     if fig_setup is None:
         plt.show()
     return
->>>>>>> upstream/master
