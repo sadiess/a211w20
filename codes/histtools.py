@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Tools for working with distributions and histograms
 extracted for convenience from AstroML 0.2
@@ -264,7 +263,7 @@ def shimazaki_shinomoto_rule(x, Nbmin=4, Nbmax=500):
     imin = np.argmin(C)
     Nb_best, h_best  = Nbins[imin], hb[imin]
     return Nb_best, h_best     
-=======
+
 """
 Tools for working with distributions and histograms
 extracted for convenience from AstroML 0.2
@@ -529,4 +528,3 @@ def shimazaki_shinomoto_rule(x, Nbmin=4, Nbmax=500):
     imin = np.argmin(C)
     Nb_best, h_best  = Nbins[imin], hb[imin]
     return Nb_best, h_best     
->>>>>>> upstream/master
