@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -665,7 +664,7 @@ def plot_2d_dist(x,y, xlim, ylim, nxbins, nybins, figsize=(5,5),
     if fig_setup is None:
         plt.show()
     return
-=======
+
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -895,4 +894,4 @@ def triage(par, weights, parnames, figsize=[5,5], nbins = 30, figname=None, font
     plt.tight_layout(pad=1.5, w_pad=-4, h_pad=-0.6)
     if figname:
         plt.savefig(figname, bbox_inches='tight')
->>>>>>> upstream/master
+
