@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -896,7 +895,6 @@ def triage(par, weights, parnames, figsize=[5,5], nbins = 30, figname=None, font
     if figname:
         plt.savefig(figname, bbox_inches='tight')
 
-=======
 import matplotlib.pylab as plt
 import numpy as np
 
@@ -1204,4 +1202,3 @@ def plot_kmeans(i, X, K, centroids, newcentroids, nearest, show=True):
     plt.axis(ax)
     if show:
         plt.show()
->>>>>>> upstream/master

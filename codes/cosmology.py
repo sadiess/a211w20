@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import numpy as np
 from .constants import clight 
 
@@ -61,7 +60,7 @@ def d_L_vectorized(z, H0, Om0, OmL, atol=1.e-8, rtol=1.e-8):
                 return dH * np.sin(dc*sqrOmk) * (1.0 + z) / sqrOmk
             
         return dL
-=======
+
 import numpy as np
 from .constants import clight 
 
@@ -325,4 +324,3 @@ def d_a(z, Om0, OmL):
     zp1i = 1./(z + 1.)
     return d_l(z, Om0, OmL) * zp1i * zp1i
 
->>>>>>> upstream/master
